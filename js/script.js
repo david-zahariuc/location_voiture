@@ -421,15 +421,3 @@ function showResponsiveMenu() {
     }
 }
 
-// API
-
-var map_parameters = { center: { lat: 45.764043, lng: 4.835659 }, zoom: 5 };
-var map = new google.maps.Map(document.getElementById("map"), map_parameters);
-
-var position1 = { position: { lat: 45.764043, lng: 4.835659 }, map: map };
-var position2 = { position: { lat: 48.856614, lng: 2.3522219 }, map: map };
-
-var marker1 = new google.maps.Marker(position1);
-var marker2 = new google.maps.Marker(position2);
-
-  // API
